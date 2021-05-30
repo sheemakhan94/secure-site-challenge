@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.posts-container {
+  width: 66.66%;
+  float: right;
+}
+
+.featured-container {
+  float: right;
+  margin: 0 auto;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.featured-post {
+  width: 47%;
+  height: 238px;
+  background-color: black;
+  display: flex;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  float: right;
+  justify-content: flex-start;
+}
+
+.featured-title {
+  margin: 0;
+  font-size: 14px;
+  background-color: white;
+  height: 20px;
+  margin: 15px 15px;
+  padding: 2px 6px;
+}
+
+.featured-copy-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+}
+
+.featured-copy {
+  margin-top: 0px;
+  margin-left: 35px;
+}
+
+.featured-copy:hover {
+  text-decoration-style: solid;
+}
+
+.popular-title {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 21px;
+}
+
+.popular-container {
+  height: 405px;
+  background-color: rgb(153, 153, 153);
+  margin-left: 35px;
+}

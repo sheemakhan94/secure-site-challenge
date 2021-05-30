@@ -1,0 +1,48 @@
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5pt solid black;
+}
+
+.title {
+  font-size: 24px;
+  padding-top: 1.58%;
+  margin-top: 0px;
+}
+
+.header-nav-bar {
+  margin-left: auto;
+  /* padding-top: 1.77%; */
+}
+
+.header-nav-link {
+  padding: 0px 15px;
+}
+
+.globe-img {
+  height: 36px;
+  width: 41px;
+}
+
+.bordered-link {
+  border: 0.5pt solid black;
+  padding: 7px 15px;
+  margin-left: 15px;
+}
+
+.bordered-link:hover {
+  background-color: rgb(102, 153, 102);
+  cursor: url('./assets/cursor.jpg'), auto;
+}
+
+.subtitles {
+  margin-bottom: 1.84%;
+}
+
+.subtitles>p {
+  border-bottom: 1px solid black;
+  padding: 9px 0px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}

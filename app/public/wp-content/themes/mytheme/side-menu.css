@@ -1,0 +1,28 @@
+.side-menu {
+  padding-left: 0;
+  margin-top: 57px;
+  width: 33.33%;
+  margin: 0 auto;
+}
+
+.side-menu-img {
+  margin-right: 6.45%;
+}
+
+.side-menu>li {
+  border: 1px solid black;
+  height: 45px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 13px 0;
+  font-weight: 600;
+  float: left;
+  padding-left: 4.83%;
+}
+
+.side-menu>li:hover {
+  background-color: rgb(51, 153, 153);
+  cursor: url('./1x/Asset\ 1-100.jpg'), auto;
+}
